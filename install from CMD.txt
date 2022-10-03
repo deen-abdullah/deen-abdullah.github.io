@@ -1,0 +1,39 @@
+https://www.youtube.com/watch?v=hYv6BM2fWd8
+
+To create my profile: [1:55]
+create-react-app portfolio
+
+npm i react-router-hash-link
+
+Installing Bootstrap: [2:10]
+npm install react-bootstrap bootstrap
+
+Installing Bootstrap Icons: [27:48]
+npm install react-bootstrap-icons --save
+
+react-multi-carousel: [39:16]
+npm i react-multi-carousel
+
+Animation: [1:51:17]
+npm install animate.css --save
+
+npm i react-on-screen
+npm install emailjs-com --save
+
+------------------
+zlwfkotxfhqsiyel
+--------------------------------
+https://www.youtube.com/watch?v=2hM5viLMJpA&t=30s
+
+_redirects under public: /*    /index.html  200
+update package.json::::::: homepage and script
+
+git remote add origin https://github.com/deen-abdullah/deen-abdullah.github.io.git
+
+Build and publish:::
+npm run deploy
+
+Push project:
+git add -A
+git commit -m "initial commit"
+git push -set-upstream origin master
