@@ -19,6 +19,7 @@ npm install animate.css --save
 
 npm i react-on-screen
 npm install emailjs-com --save
+npm install react-hook-form
 
 ------------------
 zlwfkotxfhqsiyel
@@ -26,6 +27,7 @@ zlwfkotxfhqsiyel
 https://www.youtube.com/watch?v=2hM5viLMJpA&t=30s
 
 _redirects under public: /*    /index.html  200
+npm install --save gh-pages
 update package.json::::::: homepage and script
 
 git remote add origin https://github.com/deen-abdullah/deen-abdullah.github.io.git
@@ -36,4 +38,4 @@ npm run deploy
 Push project:
 git add -A
 git commit -m "initial commit"
-git push -set-upstream origin master
+git push --set-upstream origin master
