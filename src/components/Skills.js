@@ -3,7 +3,6 @@ import meter2 from "../assets/img/meter2.svg"; //80%
 import meter3 from "../assets/img/meter3.svg"; //90%
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {
@@ -33,14 +32,13 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter1} alt="Image" />
                                 <h5>Java/C++</h5>
                             </div>
                             <div className="item">
@@ -52,7 +50,7 @@ export const Skills = () => {
                                 <h5>NLP Models</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter1} alt="Image" />
                                 <h5>Version Control</h5>
                             </div>
                             <div className="item">
@@ -64,7 +62,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        
     </section>
   )
 }
