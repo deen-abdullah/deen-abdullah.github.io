@@ -2,11 +2,58 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
+import projImg9 from "../assets/img/project-img9.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Project = () => {
+
+  const NLPproject = [
+    {
+      title: "Evidence Based Query",
+      description: "Generating query to prepare query-focused summarization dataset",
+      imgUrl: projImg4,
+      myUrl:"https://github.com/deen-abdullah/EvidenceBasedQuery",
+    },
+    {
+      title: "QAbsBert",
+      description: "Query Focused Abstractive Summarization",
+      imgUrl: projImg5,
+      myUrl:"https://github.com/deen-abdullah/QABSBERT",
+    },
+    {
+      title: "Summarization using GAT",
+      description: "Work in progress",
+      imgUrl: projImg9,
+      myUrl:"https://github.com/deen-abdullah/gat",
+    },
+  ];
+
+  const Courseproject = [
+    {
+      title: "Ensemble-based spam filtering",
+      description: "Project completed in one of the M.Sc. courses (Advanced Data Processing) at University of Lethbridge",
+      imgUrl: projImg6,
+      myUrl:"https://github.com/deen-abdullah/Ensemble-based-spam-filtering",
+    },
+    {
+      title: "Quantum Computing",
+      description: "Project completed in one of the M.Sc. courses (Quantum Computing) at University of Lethbridge",
+      imgUrl: projImg7,
+      myUrl:"https://github.com/deen-abdullah/quantum-computing",
+    },
+    {
+      title: "Movie Review",
+      description: "Project completed in one of the Ph.D. courses (Data Mining and Deep Learning) at University of Lethbridge",
+      imgUrl: projImg8,
+      myUrl:"https://github.com/deen-abdullah/Deep-Learning-for-Natural-Language-Processing",
+    },
+  ];
 
   const project = [
     {
@@ -32,7 +79,7 @@ export const Project = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>You can view my projects below in three different sections: Self-interest based includes Machine Learning and Data Science oriented projects, NLP based includes some of my Language Processing oriented projects and Course based includes different projects that I completed during my academic years.</p>
+                <p>You can view my projects below in three different sections: NLP based includes some of my Language Processing oriented projects, Course based includes different projects that I completed during my academic years and Self-interest based includes Machine Learning and Data Science oriented projects.</p>
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -47,10 +94,32 @@ export const Project = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                   <Tab.Pane eventKey="first">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Row>
+                        {
+                          NLPproject.map((NLPproject, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...NLPproject}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Row>
+                        {
+                          Courseproject.map((Courseproject, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...Courseproject}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <Row>
