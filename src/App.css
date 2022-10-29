@@ -342,6 +342,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+
+/************ award Css ************/
+.award {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-image: url('./assets/img/banner-bg.png');
+  padding: 70px 0 70px 0;
+}
+.award-bx {
+  background-color: transparent;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.award h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.award p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.award-slider {
+  width: 82%;
+  margin: 0 auto;
+  position: relative;
+}
+.award-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;

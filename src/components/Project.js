@@ -62,12 +62,6 @@ export const Project = () => {
       imgUrl: projImg1,
       myUrl:"https://github.com/deen-abdullah/deen-abdullah.github.io/tree/master",
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      myUrl:"https://github.com/deen-abdullah/deen-abdullah.github.io/tree/master",
-    },
   ];
 
   return (
