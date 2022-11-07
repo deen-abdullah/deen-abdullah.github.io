@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c6ede6e.css",
-    "main.js": "/static/js/main.019c5cb4.js",
+    "main.js": "/static/js/main.d8f4c86a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/banner-bg.png": "/static/media/banner-bg.ced2bd7c7d1622ce30ff.png",
     "static/media/deen.png": "/static/media/deen.f8a507724c5d621d75fe.png",
@@ -15,6 +15,7 @@
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img6.png": "/static/media/project-img6.1119483c770428d707a1.png",
     "static/media/project-img2.png": "/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/project-img10.png": "/static/media/project-img10.1abfa91efaac0b0b4b57.png",
     "static/media/project-img7.png": "/static/media/project-img7.82e95ff35b798dadd4f2.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -30,11 +31,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.8c6ede6e.css.map": "/static/css/main.8c6ede6e.css.map",
-    "main.019c5cb4.js.map": "/static/js/main.019c5cb4.js.map",
+    "main.d8f4c86a.js.map": "/static/js/main.d8f4c86a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c6ede6e.css",
-    "static/js/main.019c5cb4.js"
+    "static/js/main.d8f4c86a.js"
   ]
 }
