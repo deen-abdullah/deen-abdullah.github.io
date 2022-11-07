@@ -8,6 +8,7 @@ import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
+import projImg10 from "../assets/img/project-img10.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -36,6 +37,18 @@ export const Project = () => {
 
   const Courseproject = [
     {
+      title: "Question Generation using Seq2Seq model with Attention",
+      description: "Project completed as an assignment in one of the Ph.D. courses (Deep Learning for Natural Language Processing) at University of Lethbridge",
+      imgUrl: projImg10,
+      myUrl:"https://colab.research.google.com/drive/1EtftSOSKyIFkM8C6LtMTM4eDhXObtk59?usp=sharing",
+    },
+    {
+      title: "Movie Review",
+      description: "Project completed in one of the Ph.D. courses (Data Mining and Deep Learning) at University of Lethbridge",
+      imgUrl: projImg8,
+      myUrl:"https://github.com/deen-abdullah/Deep-Learning-for-Natural-Language-Processing",
+    },
+    {
       title: "Ensemble-based spam filtering",
       description: "Project completed in one of the M.Sc. courses (Advanced Data Processing) at University of Lethbridge",
       imgUrl: projImg6,
@@ -46,12 +59,6 @@ export const Project = () => {
       description: "Project completed in one of the M.Sc. courses (Quantum Computing) at University of Lethbridge",
       imgUrl: projImg7,
       myUrl:"https://github.com/deen-abdullah/quantum-computing",
-    },
-    {
-      title: "Movie Review",
-      description: "Project completed in one of the Ph.D. courses (Data Mining and Deep Learning) at University of Lethbridge",
-      imgUrl: projImg8,
-      myUrl:"https://github.com/deen-abdullah/Deep-Learning-for-Natural-Language-Processing",
     },
   ];
 
