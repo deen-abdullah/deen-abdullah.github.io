@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/deen.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "NLP Engineer", "Data Science Specialist", "Cloud Practitioner" ];
+  const toRotate = [ "NLP Engineer", "Software Engineer", "Data Science Specialist", "Cloud Practitioner" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,8 +56,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Deen`} </h1>
-                <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "NLP Engineer", "Data Science Specialist", "Cloud Practitioner" ]'><span className="wrap">{text}</span></span></h2>
-                  <p> Hi, I am Deen and pursuing my PhD research (as an Alberta Innovats Scholar) on Natural Language Processing at the University of Lethbridge. Experienced in working with the SOTA NLP models (Transformer, BERT, GPT, BART, GCN, GAT) with an aim to improve the performance of the Query Focused Summarization Models. Passionate about research and competetive programming where love to play with data structures and algorithms to find the optimal solution. Languages that I prefer to work with are Python, C++, JAVA, C#, JavaScript. I also have an interest in cloud platforms, data science and deep learning models to develop ML models and finding the key insights from the crazy data.  </p>
+                <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "NLP Engineer", "Software Engineer", "Data Science Specialist", "Cloud Practitioner" ]'><span className="wrap">{text}</span></span></h2>
+                  <p> Hi, I am Deen, pursuing my Ph.D. research (as an Alberta Innovates Scholar) on Machine Learning and Software Engineering at the University of Lethbridge. I am experienced in working with the SOTA NLP models (Transformer, BERT, GPT, BART, GCN, GAT) to improve the performance of the Query-Focused Summarization Models. Passionate about research and competitive programming, where I love to play with data structures and algorithms to find the optimal solution. Languages that I prefer to work with are Python, C++, JAVA, C#, and JavaScript. I am also interested in cloud platforms, data science and deep learning models to develop ML models and find the key insights from the crazy data.  </p>
               </div>}
             </TrackVisibility>
           </Col>

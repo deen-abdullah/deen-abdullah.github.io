@@ -80,11 +80,11 @@ export const Project = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>You can view my projects below in three different sections: NLP based includes some of my Language Processing oriented projects, Course based includes different projects that I completed during my academic years and Self-interest based includes Machine Learning and Data Science oriented projects.</p>
+                <p>You can view my projects below in three different sections: Thesis based includes some of my Language Processing oriented projects, Course based includes different projects that I completed during my academic years and Self-interest based includes Machine Learning and Data Science oriented projects.</p>
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">NLP based</Nav.Link>
+                      <Nav.Link eventKey="first">Thesis based</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Course Based</Nav.Link>
