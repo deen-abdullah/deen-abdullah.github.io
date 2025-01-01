@@ -44,7 +44,7 @@ const SideBar = () => (
       <p className="copyright">
         &copy; Deen Mohammad Abdullah <Link to="/">deen-abdullah.github.io</Link>.
       </p>
-      Last updated: December 18, 2024.
+      Last updated: January 01, 2025.
     </section>
   </section>
 );

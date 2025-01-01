@@ -3,6 +3,8 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+import { faFileCode } from '@fortawesome/free-regular-svg-icons/faFileCode';
+
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
@@ -13,6 +15,16 @@ const data = [
     icon: faGithub,
   },
   {
+    link: 'https://www.linkedin.com/in/deen-abdullah/',
+    label: 'LinkedIn',
+    icon: faLinkedinIn,
+  },
+  {
+    link: 'https://leetcode.com/u/rabimist/',
+    label: 'LeetCode',
+    icon: faFileCode,
+  },
+  {
     link: 'https://www.facebook.com/rabi.mist',
     label: 'Facebook',
     icon: faFacebookF,
@@ -21,11 +33,6 @@ const data = [
     link: 'https://www.instagram.com/rabi.mist/',
     label: 'Instagram',
     icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/deen-abdullah/',
-    label: 'LinkedIn',
-    icon: faLinkedinIn,
   },
   {
     link: 'mailto:deen.m.abdullah@gmail.com',
