@@ -34,10 +34,11 @@ const Resume = () => (
           <div className="link-container">
           <ul>
             <li>Ph.D. Candidate, Mathematics & Computer Science Department, University of Lethbridge, Canada.</li>
-            <li>7+ years of experience in software development and research with excellent analytical skills.</li>
-            <li>8+ years of expertise in Mentoring, Supervising and Leadership roles by actively communicating with people from multicultural backgrounds.</li>
-            <li>6+ years of experience in advising different problem-solving sessions including ML problems.</li>
-            <li>4+ years of experience in working with the SOTA NLP models.</li>
+            <li>7+ years of experience in working with the SOTA NLP LLMs.</li>
+            <li>7+ years of expertise in collecting, extracting and transforming data (data preprocessing) using API’s and data analysis using statistical approaches.</li>
+            <li>4+ years of experience in developing generative Machine Learning models for software quality analysis and tool deployment using Docker.</li>
+            <li>7+ years of experience in full-stack software development and research with excellent analytical skills.</li>
+            <li>8+ years of expertise in Mentoring, Supervising and Leadership roles by actively communicating and explaining complex terms to technical and non-technical persons.</li>
           </ul>
             
               
