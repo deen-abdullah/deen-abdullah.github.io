@@ -7,8 +7,8 @@ const data = [
     image: '/images/projects/acdsa2025.png',
     date: '2025-08-09',
     desc:
-      'This code is for ACDSA2025 paper Do sociolinguistic factors' + 
-      ' influence program writing styles?.',
+      'This code is for ACDSA 2025 paper Do Sociolinguistic Factors' + 
+      ' Influence Program Writing Styles?.',
   },
   {
     title: 'QAbsBERT',
