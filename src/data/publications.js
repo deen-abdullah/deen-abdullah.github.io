@@ -1,6 +1,13 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Do sociolinguistic factors influence program writing styles?',
+    link: '#',
+    date: '2025-08-09',
+    publisher:
+      'International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), IEEE',
+  },
+  {
     title: 'Generating Query Focused Summaries without Fine-tuning the Transformer-based Pre-trained Models',
     link: 'https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=eOjoaA0AAAAJ&sortby=pubdate&citation_for_view=eOjoaA0AAAAJ:8k81kl-MbHgC',
     date: '2023-03-10',
