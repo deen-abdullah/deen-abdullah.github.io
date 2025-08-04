@@ -1,6 +1,16 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Dataset-ACDSA2025',
+    subtitle: 'Do sociolinguistic factors influence program writing styles?',
+    link: 'https://github.com/deen-abdullah/Dataset-ACDSA2025',
+    image: '/images/projects/acdsa2025.png',
+    date: '2025-08-09',
+    desc:
+      'This code is for ACDSA2025 paper Do sociolinguistic factors' + 
+      ' influence program writing styles?.',
+  },
+  {
     title: 'QAbsBERT',
     subtitle: 'Query Focused Abstractive Summarization using Pre-trained Model',
     link: 'https://github.com/deen-abdullah/QABSBERT',
