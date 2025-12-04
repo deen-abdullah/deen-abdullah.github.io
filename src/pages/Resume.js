@@ -33,7 +33,6 @@ const Resume = () => (
           </h2>
           <div className="link-container">
           <ul>
-            <li>Ph.D. Candidate, Mathematics & Computer Science Department, University of Lethbridge, Canada.</li>
             <li>7+ years of experience in working with the SOTA NLP LLMs.</li>
             <li>7+ years of expertise in collecting, extracting and transforming data (data preprocessing) using API’s and data analysis using statistical approaches.</li>
             <li>4+ years of experience in developing generative Machine Learning models for software quality analysis and tool deployment using Docker.</li>

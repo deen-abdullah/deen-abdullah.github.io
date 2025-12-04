@@ -1,10 +1,10 @@
 const degrees = [
   {
     school: 'University of Lethbridge, Canada',
-    degree: 'Ph.D. in Theory & Computational Science (Pursuing)',
+    degree: 'Ph.D. in Theory & Computational Science',
     link: 'https://www.ulethbridge.ca/',
     cgpa: '4.0/4.0',
-    year: '2020 - Present',
+    year: '2020 - 2025',
   },
   {
     school: 'University of Lethbridge, Canada',

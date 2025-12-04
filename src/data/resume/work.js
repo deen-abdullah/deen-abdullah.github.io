@@ -17,6 +17,7 @@ const work = [
     position: 'Researcher',
     url: 'https://www.ulethbridge.ca/',
     startDate: '2018-09-03',
+    endDate: '2026-03-31',
     summary: '',
     highlights: [
       'Conducting and coordinating Team-based research on developing Software Quality.', 
@@ -29,8 +30,8 @@ const work = [
     position: 'Lecturer-I',
     url: 'https://www.ulethbridge.ca/',
     startDate: '2022-05-01',
-    endDate: '2024-06-30',
-    summary: `Prepared course material, exam questions, delivering lectures and marking for Fundamental of Programming-I (C++) course.`,
+    endDate: '2025-12-31',
+    summary: `Prepared course material, exam questions, delivering lectures and marking for Fundamental of Programming-I (C++) and Computer Graphics courses.`,
     highlights: [
     ],
   },
