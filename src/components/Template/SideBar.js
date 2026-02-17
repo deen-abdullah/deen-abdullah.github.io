@@ -20,10 +20,13 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p>
-        Hi, I&apos;m Dr. Deen. I am a Data scientist and Machine learning engineer.
-      </p>
+      <aside className="sidebar-intro">
+        <h2>About</h2>
+        <p><strong>Dr. Deen</strong></p>
+        <p>AI Engineer (Applied ML &amp; LLM Systems)</p>
+        <p>LLM Pipelines • Speech-to-Text • GPU Efficiency • AWS/Azure</p>
+        <p>Building scalable, production-ready AI systems.</p>
+      </aside>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
@@ -44,7 +47,7 @@ const SideBar = () => (
       <p className="copyright">
         &copy; Deen Mohammad Abdullah <Link to="/">deen-abdullah.github.io</Link>.
       </p>
-      Last updated: December 04, 2025.
+      Last updated: February 17, 2026.
     </section>
   </section>
 );

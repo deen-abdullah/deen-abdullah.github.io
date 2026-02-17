@@ -25,3 +25,10 @@
     width: 100%;
   }
 }
+
+.sidebar-intro h2,
+.sidebar-intro h3,
+.sidebar-intro p {
+  margin: 4px 0;   /* reduce vertical gap */
+  line-height: 1.3;
+}

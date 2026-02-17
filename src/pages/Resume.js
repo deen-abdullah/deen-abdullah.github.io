@@ -33,15 +33,28 @@ const Resume = () => (
           </h2>
           <div className="link-container">
           <ul>
-            <li>7+ years of experience in working with the SOTA NLP LLMs.</li>
-            <li>7+ years of expertise in collecting, extracting and transforming data (data preprocessing) using API’s and data analysis using statistical approaches.</li>
-            <li>4+ years of experience in developing generative Machine Learning models for software quality analysis and tool deployment using Docker.</li>
-            <li>7+ years of experience in full-stack software development and research with excellent analytical skills.</li>
-            <li>8+ years of expertise in Mentoring, Supervising and Leadership roles by actively communicating and explaining complex terms to technical and non-technical persons.</li>
+            <li>
+              7+ years of experience designing, deploying, and evaluating machine learning and
+              LLM-based systems across applied research and enterprise environments.
+            </li>
+            <li>
+              Hands-on expertise in LLM pipelines, fine-tuning, RAG systems, semantic search,
+              summarization, and classification using state-of-the-art transformer models.
+            </li>
+            <li>
+              Strong experience building speech-to-text and NLP solutions, including Whisper-based
+              pipelines and structured data extraction workflows.
+            </li>
+            <li>
+              End-to-end ML system development experience covering data processing, model training,
+              evaluation, deployment, monitoring, and API-based production integration.
+            </li>
+            <li>
+              Proven ability to design GPU-efficient, cost-aware ML infrastructure using Docker,
+              AWS, Azure, Databricks, and on-premise GPU environments.
+            </li>
           </ul>
-            
-              
-    
+
             
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

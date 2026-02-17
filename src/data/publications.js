@@ -2,7 +2,7 @@
 const data = [
   {
     title: 'Do sociolinguistic factors influence program writing styles?',
-    link: '#',
+    link: 'https://ieeexplore.ieee.org/abstract/document/11166532',
     date: '2025-08-09',
     publisher:
       'International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), IEEE',

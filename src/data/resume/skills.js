@@ -1,203 +1,50 @@
 const skills = [
-  {
-    title: 'Python',
-    competency: 5,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'ASP.Net',
-    competency: 4,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'Java',
-    competency: 4,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'JavaScript',
-    competency: 4,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'C#',
-    competency: 3,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'C++',
-    competency: 5,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'C',
-    competency: 5,
-    category: ['Programming Language'],
-  },
-  {
-    title: 'HTML-CSS',
-    competency: 4,
-    category: ['Web developmen'],
-  },
-  {
-    title: 'PHP',
-    competency: 3,
-    category: ['Web developmen'],
-  },
-  {
-    title: 'React',
-    competency: 4,
-    category: ['Web developmen'],
-  },
-  {
-    title: 'Node.JS',
-    competency: 4,
-    category: ['Web developmen'],
-  },
-  {
-    title: 'Flask',
-    competency: 4,
-    category: ['Web developmen'],
-  },
-  {
-    title: 'Oracle',
-    competency: 4,
-    category: ['Database'],
-  },
-  {
-    title: 'SQL',
-    competency: 5,
-    category: ['Database'],
-  },
-  {
-    title: 'MySQL',
-    competency: 5,
-    category: ['Database'],
-  },
-  {
-    title: 'PostgreSQL',
-    competency: 4,
-    category: ['Database'],
-  },
-  {
-    title: 'Pytorch',
-    competency: 5,
-    category: ['ML & Data Engineering'],
-  },
-  {
-    title: 'Tensorflow',
-    competency: 5,
-    category: ['ML & Data Engineering'],
-  },
-  {
-    title: 'Numpy',
-    competency: 5,
-    category: ['ML & Data Engineering'],
-  },
-  {
-    title: 'Scikit-Learn',
-    competency: 5,
-    category: ['ML & Data Engineering'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 4,
-    category: ['ML & Data Engineering'],
-  },
-  {
-    title: 'BERT',
-    competency: 5,
-    category: ['Language models'],
-  },
-  {
-    title: 'GPT',
-    competency: 5,
-    category: ['Language models'],
-  },
-  {
-    title: 'BART',
-    competency: 5,
-    category: ['Language models'],
-  },
-  {
-    title: 'T5',
-    competency: 5,
-    category: ['Language models'],
-  },
-  {
-    title: 'GNN',
-    competency: 4,
-    category: ['Language models'],
-  },
-  {
-    title: 'GCN',
-    competency: 4,
-    category: ['Language models'],
-  },
-  {
-    title: 'GAT',
-    competency: 4,
-    category: ['Language models'],
-  },
-  {
-    title: 'Linux',
-    competency: 5,
-    category: ['Operating system'],
-  },
-  {
-    title: 'UNIX',
-    competency: 5,
-    category: ['Operating system'],
-  },
-  {
-    title: 'Mac OS',
-    competency: 5,
-    category: ['Operating system'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 5,
-    category: ['API development'],
-  },
-  {
-    title: 'Correlation analysis',
-    competency: 5,
-    category: ['Statistical Analysis'],
-  },
-  {
-    title: 'T-test',
-    competency: 5,
-    category: ['Statistical Analysis'],
-  },
-  {
-    title: 'Git',
-    competency: 5,
-    category: ['Tool'],
-  },
-  {
-    title: 'Tableau',
-    competency: 5,
-    category: ['Tool'],
-  },
-  {
-    title: 'WEKA',
-    competency: 5,
-    category: ['Tool'],
-  },
+  // Programming
+  { title: 'Python', competency: 5, category: ['Programming'] },
+  { title: 'C++', competency: 5, category: ['Programming'] },
+  { title: 'Java', competency: 4, category: ['Programming'] },
+  { title: 'JavaScript', competency: 4, category: ['Programming'] },
+
+  // ML & NLP
+  { title: 'PyTorch', competency: 5, category: ['ML & NLP'] },
+  { title: 'TensorFlow', competency: 5, category: ['ML & NLP'] },
+  { title: 'scikit-learn', competency: 5, category: ['ML & NLP'] },
+  { title: 'Transformers (HuggingFace)', competency: 5, category: ['ML & NLP'] },
+  { title: 'GNN / Graph Learning', competency: 4, category: ['ML & NLP'] },
+
+  // Language Models
+  { title: 'BERT / RoBERTa', competency: 5, category: ['Language Models'] },
+  { title: 'T5 / BART', competency: 4, category: ['Language Models'] },
+  { title: 'LLaMA', competency: 4, category: ['Language Models'] },
+
+  // LLM Systems
+  { title: 'Fine-tuning LLMs', competency: 5, category: ['LLM Systems'] },
+  { title: 'RAG Pipelines', competency: 5, category: ['LLM Systems'] },
+  { title: 'Semantic Search', competency: 5, category: ['LLM Systems'] },
+  { title: 'Speech-to-Text (Whisper)', competency: 4, category: ['LLM Systems'] },
+  { title: 'Summarization & Classification', competency: 5, category: ['LLM Systems'] },
+
+  // Infrastructure & MLOps
+  { title: 'AWS', competency: 4, category: ['Infrastructure'] },
+  { title: 'Azure', competency: 4, category: ['Infrastructure'] },
+  { title: 'Docker', competency: 5, category: ['Infrastructure'] },
+  { title: 'GPU Optimization', competency: 5, category: ['Infrastructure'] },
+  { title: 'Linux', competency: 5, category: ['Infrastructure'] },
+  { title: 'Git', competency: 5, category: ['Infrastructure'] },
+
+  // Data & Analytics
+  { title: 'SQL', competency: 5, category: ['Data & Analytics'] },
+  { title: 'PySpark / Spark', competency: 3, category: ['Data & Analytics'] },
+  { title: 'Model Evaluation (ROUGE / BLEU)', competency: 4, category: ['Data & Analytics'] },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
-// this is a list of colors that I like. The length should be === to the
-// number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
-'#534df8',
-'#107fbb',
-'#446170',
-'#005d5f',
-'#117c8a',
-'#895466',
-'#007dbc',
-'#d67215',
-'#c87251',
+  '#534df8',
+  '#107fbb',
+  '#005d5f',
+  '#d67215',
+  '#895466',
+  '#007dbc',
 ];
 
 const categories = [...new Set(skills.flatMap(({ category }) => category))]

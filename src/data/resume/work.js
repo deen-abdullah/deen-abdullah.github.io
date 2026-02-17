@@ -14,25 +14,44 @@
 const work = [
   {
     name: 'University of Lethbridge, Dept. of Math. & Computer Science',
-    position: 'Researcher',
+    position: 'Applied Machine Learning Engineer / Research Associate',
     url: 'https://www.ulethbridge.ca/',
     startDate: '2018-09-03',
-    endDate: '2026-03-31',
-    summary: '',
+    endDate: '',
+    summary:
+      'Leading applied research and engineering of scalable LLM-driven ML systems for software quality intelligence, NLP pipelines, and GPU-efficient AI infrastructure.',
     highlights: [
-      'Conducting and coordinating Team-based research on developing Software Quality.', 
-      'Extracted 700K data to prepare data sets for improving programming quality tasks using LLMs.', 
-      'Improved performance for BERT-SUM model for query focused summarization using 300K data.',
+      'Designed and deployed LLM-based pipelines for software quality prediction, intelligent code analytics, and automated summarization.',
+      'Built and curated large-scale ML datasets (700K+ records), improving model training and evaluation reliability.',
+      'Enhanced query-focused summarization performance by optimizing BERT-SUM models using 300K+ curated datasets.',
+      'Developed end-to-end ML workflows including data ingestion, preprocessing, training, evaluation, deployment, and monitoring.',
     ],
   },
   {
     name: 'University of Lethbridge, Dept. of Math. & Computer Science',
-    position: 'Lecturer-I',
+    position: 'Lecturer',
     url: 'https://www.ulethbridge.ca/',
     startDate: '2022-05-01',
     endDate: '2025-12-31',
-    summary: `Prepared course material, exam questions, delivering lectures and marking for Fundamental of Programming-I (C++) and Computer Graphics courses.`,
+    summary:
+      'Delivered undergraduate computer science courses and mentored students in applied programming, algorithms, and software engineering practices.',
     highlights: [
+      'Prepared curriculum materials, examinations, and practical assignments for C++ programming and Computer Graphics courses.',
+      'Mentored students in developing production-ready programming projects and computational problem-solving skills.',
+    ],
+  },
+  {
+    name: 'Farpoint Technologies Inc.',
+    position: 'AI Engineer (Project-based Collaboration)',
+    url: '',
+    startDate: '2024-01-01',
+    endDate: '2024-03-31',
+    summary:
+      'Collaborated on deployment and benchmarking of a commercial LLM-based meeting intelligence platform in a remote industry engagement.',
+    highlights: [
+      'Supported deployment of speech-to-text pipelines using Whisper-based transcription systems for meeting intelligence applications.',
+      'Benchmarked multiple LLM configurations to evaluate inference latency, throughput, and system performance.',
+      'Analyzed GPU utilization and efficiency across model setups to inform cost-aware infrastructure and deployment decisions.',
     ],
   },
   {
@@ -41,38 +60,10 @@ const work = [
     url: 'https://www.primeasia.edu.bd/',
     startDate: '2011-06-07',
     endDate: '2018-08-31',
-    summary: `Performed teaching and various administrative duties as senior faculty.`,
+    summary:
+      'Taught undergraduate and graduate computer science courses while supervising research and contributing to curriculum development.',
     highlights: [
-    ],
-  },
-  {
-    name: 'Dept. of CSE, Primeasia University, Bangladesh',
-    position: 'Programming contest coach',
-    url: 'https://www.primeasia.edu.bd/',
-    startDate: '2012-01-01',
-    endDate: '2015-12-31',
-    summary: `Mentored undergraduate teams for regional and inter-university programming contests.`,
-    highlights: [
-    ],
-  },
-  {
-    name: 'iFlexSoft Ltd, Bangladesh',
-    position: 'Software Developer',
-    url: 'https://iflexsoft.com/',
-    startDate: '2011-01-01',
-    endDate: '2011-12-31',
-    summary: `Web-based applications development in ASP.NET and worked on Troubleshooting bug issues.`,
-    highlights: [
-    ],
-  },
-  {
-    name: 'Peninsula IT Ltd, Dhaka, Bangladesh',
-    position: 'Software Development Intern',
-    url: '',
-    startDate: '2009-09-01',
-    endDate: '2009-12-31',
-    summary: `Designed Tree view menu and front-end GUI.`,
-    highlights: [
+      'Led student research supervision, departmental academic coordination, and technical mentoring initiatives.',
     ],
   },
 ];

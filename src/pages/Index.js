@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Deen Mohammad Abdullah's personal website. I am a Data scientist and Machine learning engineer."
+      "Deen Mohammad Abdullah's personal website."
     }
   >
     <article className="post" id="index">
@@ -16,22 +16,21 @@ const Index = () => (
             <Link to="/">My personal website</Link>
           </h2>
           <p>
-          I am a Data scientist and Machine learning engineer.
+          AI Engineer (Applied ML & LLM Systems) — LLM Pipelines, Speech-to-Text, GPU Optimization, AWS & Azure
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>, <Link to="/publications">publications</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
+        <strong>Hi, I’m Dr. Deen — an AI Engineer specializing in Applied Machine Learning and LLM Systems.</strong>
+      </p> 
+      <p>
+        I design and deploy scalable <strong>LLM pipelines, speech-to-text platforms, and GPU-efficient AI infrastructure</strong> across <strong>AWS and Azure</strong>, focusing on building production-grade intelligent systems that improve performance, scalability, and cost efficiency.
       </p>
       <p>
-        {' '}
-        Source available{' '}
-        <a href="https://github.com/deen-abdullah/deen-abdullah.github.io/tree/main">here</a>.
+        Explore my work below to learn more about my research, engineering projects, and applied AI solutions.
       </p>
+      
     </article>
   </Main>
 );
